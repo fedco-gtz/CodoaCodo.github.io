@@ -99,12 +99,15 @@ button:hover {
     main p {
     display:none;
     }
+    .title h1{
+        font-size: 90%;
+    }
 }
 
 /* * ====== SMARTPHONE ========= */
 
 @media screen and (max-width:480px) {
     .title h1{
-        font-size: 120%;
+        font-size: 90%;
     }
 }
