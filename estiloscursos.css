@@ -136,8 +136,10 @@ button:hover {
     .posts-section article.active .inner-header,
     .posts-section article.post-displayer:hover .inner-header {
         justify-items: center;
-
 }
+ .title h1{
+        font-size: 90%;
+    }
 }
 
 /* * ====== SMARTPHONE ========= */
@@ -147,7 +149,9 @@ button:hover {
     .posts-section article.post-displayer:hover .inner-header {
         justify-items: center;
     }
-
+.title h1{
+        font-size: 90%;
+    }
 }
 
 
