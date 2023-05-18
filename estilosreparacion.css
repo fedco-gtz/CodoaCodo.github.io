@@ -91,7 +91,20 @@ button:hover {
 /* * ============================== */
 /* * ====== MEDIA QUERIES ========= */
 /* * ============================== */
-@media screen and (max-width: 950px) {}
+@media screen and (max-width: 1115px) {
+    main p {
+        font-size: medium;
+    }
+
+    .title h1{
+        font-size: 160%;
+    }
+
+    button {
+        right: 20%;
+    }
+
+}
 
 /* * ====== TABLETS ========= */
 
