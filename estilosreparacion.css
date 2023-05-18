@@ -94,18 +94,4 @@ button:hover {
 
 }
 
-/* * ====== TABLETS ========= */
 
-@media screen and (max-width:850px) {
-    .title {
-        font-size: xx-large;
-    }
-}
-
-/* * ====== SMARTPHONE ========= */
-
-@media screen and (max-width:480px) {
-    .title {
-        font-size: xx-large;
-    }
-}
