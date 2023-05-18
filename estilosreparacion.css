@@ -97,11 +97,8 @@ button:hover {
 /* * ====== TABLETS ========= */
 
 @media screen and (max-width:850px) {
-    main p {
-    display:none;
-    }
     .title h1{
-        font-size: 105%;
+        font-size: 120%;
     }
 }
 
@@ -109,6 +106,6 @@ button:hover {
 
 @media screen and (max-width:480px) {
     .title h1{
-        font-size: 105%;
+        font-size: 120%;
     }
 }
