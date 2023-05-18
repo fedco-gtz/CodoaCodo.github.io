@@ -13,18 +13,6 @@ body {
 /* * ============ MAIN ============ */
 /* * ============================== */
 
-main span h6 {
-    position: absolute;
-    top: 65%;
-    left: 5%;
-    right: 55px;
-    text-align: center;
-    color: #F4F4F4;
-    justify-content: center;
-    font-size: larger;
-    font-weight: bold;
-}
-
 button:focus {
     outline: none;
 }
