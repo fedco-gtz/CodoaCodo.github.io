@@ -122,6 +122,7 @@ button:hover {
 /* * ============================== */
 /* * ====== MEDIA QUERIES ========= */
 /* * ============================== */
+
 @media screen and (max-width: 950px) {
     
     .posts-section article.active .inner-header,
@@ -132,28 +133,38 @@ button:hover {
 
 /* * ====== TABLETS ========= */
 
-@media screen and (max-width:850px) {
-    .posts-section article.active .inner-header,
-    .posts-section article.post-displayer:hover .inner-header {
-        justify-items: center;
-}
- .title h1{
-        font-size: 105%;
+@media screen and (max-width:1000px) {
+    .posts-section .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px 2%;
+    }
+
+    .posts-section h2 a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #fff;
+        margin: 0;
+        text-transform: uppercase;
+        line-height: 1.6em;
     }
 }
 
 /* * ====== SMARTPHONE ========= */
 
-@media screen and (max-width:480px) {
-    .posts-section article.active .inner-header,
-    .posts-section article.post-displayer:hover .inner-header {
-        justify-items: center;
+@media screen and (max-width:540px) {
+    .posts-section .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px 2%;
     }
-.title h1{
-        font-size: 105%;
+
+    .posts-section h2 a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #fff;
+        margin: 0;
+        text-transform: uppercase;
+        line-height: 1.6em;
     }
 }
-
-
-
-
